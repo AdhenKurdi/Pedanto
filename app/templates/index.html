@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pedanto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+
+
+
+	    <!-- Icon -->
+		<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	
+		<!-- CSS -->
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/open-iconic-bootstrap.min.css') }}"type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/animate.css') }}"  type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/owl.carousel.min.css') }}"  type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/owl.theme.default.min.css') }}"  type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/magnific-popup.css') }}"  type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/aos.css') }}"  type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/ionicons.min.css') }}"  type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/bootstrap-datepicker.css') }}"  type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/jquery.timepicker.css') }}"  type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/flaticon.css') }}"  type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/icomoon.css') }}"  type="text/css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}"  type="text/css">
+
+  </head>
+  <body class="goto-here">
+		<div class="py-1 bg-primary">
+    	<div class="container">
+    		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
+	    		<div class="col-lg-12 d-block">
+		    		<div class="row d-flex">
+		    			<div class="col-md pr-4 d-flex topper align-items-center">
+					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+						    <span class="text">+ 12345 67890</span>
+					    </div>
+					    <div class="col-md pr-4 d-flex topper align-items-center">
+					    	<div class="icon mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+						    <span class="text">Pedanto@email.com</span>
+					    </div>
+					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
+						    <span class="text">Tidak ada libur &amp; Jam Kerja 24 Jam</span>
+					    </div>
+				    </div>
+			    </div>
+		    </div>
+		  </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+        <div class="col-sm ftco-animate">
+			
+          <a href="#" class="partner"><img src="{{url_for('static', filename='/images/tomatoes.png')}}" style="width:50px;height:50px;" class="img-fluid" alt="Colorlib Template"> </a>
+
+	      <a class="navbar-brand" href="index.html">Pedanto </a>
+      </div>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Beranda</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Obat</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+              	<a class="dropdown-item" href="Obat.html">Rekomendasi Obat</a>
+           
+              </div>
+            </li>
+            </li>
+	          <li class="nav-item"><a href="Prediksi.html" class="nav-link">Prediksi</a></li>
+	          <li class="nav-item"><a href="Informasi.html" class="nav-link">Informasi</a></li>
+
+	          
+	        </ul>
+	      </div>
+	    </div>
+	  </nav>
+    <!-- END nav -->
+
+    <section id="home-section" class="hero">
+		  <div class="home-slider owl-carousel">
+	      <div class="slider-item" style="background-image: url({{ url_for ('static', filename = '/images/tm-5.jpg') }});">>
+	      	<div class="overlay"></div> 
+	        <div class="container">
+	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+	            <div class="col-md-12 ftco-animate text-center">
+	              <h1 class="mb-2">solusi untuk penyakit daun tomat </h1>
+				
+				<div>
+
+				</div>
+	              <p><a href="#" class="btn btn-primary">Selengkapnya</a></p>
+	            </div>
+
+	          </div>
+	        </div>
+	      </div>
+
+	      <div class="slider-item" style="background-image: url({{ url_for ('static', filename = '/images/tm-2.jpg') }});">>
+	      	<div class="overlay"></div> 
+	        <div class="container">
+	          <div class="row slider-text justify-content-center align-items-center" data-scrollax-parent="true">
+
+	            <div class="col-sm-12 ftco-animate text-center">
+	              <h1 class="mb-2">tanaman tomat sehat ekonomi meningkat</h1>
+				  <div>
+					
+				  </div>
+	              <p><a href="#" class="btn btn-primary">Selengkapnyas</a></p>
+	            </div>
+
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+    </section>
+<div>
+
+</div>
+
+    <section class="ftco-section ftco-no-pb ftco-no-pt bg-light">
+			<div class="container">
+				<div class="row">
+
+					</div>
+					<div class="col-md-10 py-10 wrap-about pb-md-5 ftco-animate">
+	          <div class="heading-section-bold mb-4 mt-md-5">
+	          	<div class="ml-md-0">
+		            <h2 class="mb-4">Welcome to Pedanto website</h2>
+	            </div>
+	          </div>
+	          <div class="pb-md-5">
+	          	<p>Budidaya tomat merupakan peluang bisnis yang menjanjikan, kebutuhan orang-orang akan tomat meningkat dari tahun ke tahun, baik untuk memenuhi konsumen domestik maupun mancanegara. Salah satu cara yang dilakukan adalah intensifikasi pertanian melalui usaha peningkatan potensi tanaman agar mampu berproduksi tinggi atau lebih dari hasil tanaman. Selain itu tomat mempunyai banyak manfaat bagi tubuh dan mudah ditanam, siapa saja bisa menanam tomat. Tetapi beberapa faktor dapat menyebabkan berkurangnya kualitas dan kuantitas hasil tani, salah satunya adalah penyakit pada daun tomat.</p>
+							<p>Oleh karena itu untuk memberitahu petani bagaimana pencegahan, penanganan alami dan merekomendasikan petani tomat obat apa yang cocok untuk penyakit pada daun tomat. Kami berencana untuk membuat aplikasi dengan menggunakan domain CV. Langkah awal nya kita memasukan gambar daun lalu di prediksi penyakit nya dan outputnya akan diberitahukan bagaimana pencegahan, penanganan alami dan direkomendasikan obat apa yang cocok yang sesuai penyakit.</p>
+							<p><a href="#" class="btn btn-primary">Detail Lebih Lanjut</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="ftco-section ftco-category ftco-no-pt">
+			<div class="container">
+			
+
+    	<section class="ftco-section">
+    		<div class="container">
+
+
+		
+		<section class="ftco-section img" style="background-image: url({{ url_for ('static', filename = '/images/tm-16.jpg') }});">>
+    	<div class="container"> 
+				<div class="row justify-content-end">
+          <div class="col-md-6 heading-section ftco-animate deal-of-the-day ftco-animate">
+
+            <h2 class="mb-4">Tomat</h2>
+            
+        <p>cukup penting sebagai buah yang dapat mengatasi berbagai masalah khususnya
+              dengan mata dan pencernaan.</b></p>
+         <p>  Indonesia merupakan salah satu negara yang memiliki potensi besar dalam
+              bidang pertanian. Tingginya volume dan nilai ekspor buah tomat harus mampu
+              diikuti dengan peningkatan kualitas pengolahan dan pemasarannya. Hal yang
+              perlu diperhatikan adalah adanya standardisasi mutu pada produk-produk
+              pertanian khususnya buah tomat. Penerapan standardisasi mutu akan mampu
+              menghasilkan produk buah tomat yang memiliki daya saing dan mampu
+              menembus berbagai pasar internasional. Buah tomat yang bermutu dan memenuhi
+              standar akan mudah diterima oleh pasar dan memiliki daya jual yang tinggi.</b></p>
+
+					</div>
+          		</div>
+        	</div>   		
+    	</div>
+    </section>
+    
+    <footer class="ftco-footer ftco-section">
+      <div class="container">
+      	<div class="row">
+      		<div class="mouse">
+						<a href="#" class="mouse-icon">
+							<div class="mouse-wheel"><span class="ion-ios-arrow-up"></span></div>
+						</a>
+					</div>
+      	</div>
+		
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Pedanto</h2>
+              <p>Solusi terbaik untuk tanaman tomat</p>
+
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Menu</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Obat</a></li>
+                <li><a href="#" class="py-2 d-block">Predict</a></li>
+                <li><a href="#" class="py-2 d-block">Informasi</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Untuk informasi lebih lanjut</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">Jakarta, Indonesia</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+01010101</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">Pedanto@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						  Pedanto &copy;<script>document.write(new Date().getFullYear());</script> 
+						  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+						</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  		<!-- JavaScript -->
+		  <script src="{{ url_for('static', filename='/js/client_side.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/jquery.min.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/jquery-migrate-3.0.1.min.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/popper.min.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/bootstrap.min.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/jquery.easing.1.3.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/jquery.waypoints.min.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/jquery.stellar.min.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/owl.carousel.min.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/jquery.magnific-popup.min.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/aos.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/jquery.animateNumber.min.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/bootstrap-datepicker.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/scrollax.min.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/google-map.js') }}" ></script>
+		  <script src="{{ url_for('static', filename='/js/main.js') }}" ></script>
+
+    
+  </body>
+</html>
